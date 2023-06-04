@@ -200,13 +200,3 @@ a{
     position: fixed;
     z-index: 100;
 }
-#preloader > h3{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 65vh;
-    left: 47vw;
-    background-color: #000;
-    color: #f1f1f1;
-}
