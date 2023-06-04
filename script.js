@@ -867,3 +867,9 @@ function locomotive() {
       scroller:`#main`
     }
   })
+
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load",function(){
+    loader.style.display="none";
+    document.querySelector("h4").innerHTML = "...SCROLL TO READ !";
+  });
